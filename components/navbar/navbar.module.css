@@ -1,0 +1,53 @@
+.navbar{
+    margin: 10px 0;
+    padding: 10px 30px;
+    box-shadow: 5px 5px 40px rgba(27, 126, 133, 0.075);
+    border-radius: 20px;
+    background-color:rgb(220, 238, 241);
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
+    
+}
+
+.logo, .pages, .profile {
+    align-items: center;
+    display: flex;
+    align-self: center;
+}
+
+.logo :hover{
+    cursor: pointer;
+}
+
+
+.logo p{
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    color: #2B3B4E;
+    margin: 10px;
+}
+
+.pages {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pages a{
+    width: 100%;
+    text-align: center;
+    color: #2B3B4E;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.pages a:hover{
+    /* color: #000000; */
+    border-bottom: 2px solid #294b50;
+    background-color: #4ca5f918;
+    cursor: pointer;
+}
+
