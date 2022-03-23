@@ -21,8 +21,8 @@ const Navbar = () => {
       </div>
       <div className={styles.pages}>
         <Link href="/fishes"><a>Рыбки</a></Link>
-        <Link href="/breeds"><a>Пароды</a></Link>
-        <Link href="/tanks"><a>Аквариумы</a></Link>
+        <Link href="/breeds"><a>Виды рыбок</a></Link>
+
       </div>
     </nav>
   );

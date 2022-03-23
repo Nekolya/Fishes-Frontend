@@ -1,0 +1,27 @@
+.card {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 5px;
+    padding: 5px 0;
+    border-bottom: 1px solid black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit, .delete {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.edit {
+    color: black;
+    background-color: rgb(173, 215, 255);
+}
+.delete {
+    color: black;
+    background-color: rgb(255, 173, 173);
+}

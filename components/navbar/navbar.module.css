@@ -5,7 +5,7 @@
     border-radius: 20px;
     background-color:rgb(220, 238, 241);
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 4fr;
     align-items: center;
     
 }
@@ -30,7 +30,7 @@
 }
 
 .pages {
-    width: 100%;
+
     display: flex;
     justify-content: space-around;
 }
